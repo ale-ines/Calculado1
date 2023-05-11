@@ -1,0 +1,39 @@
+calculadora.js
+const resadicion = require ( "./suma")
+console.log ( resadicion)
+const resultado = require ( "./resta")
+console.log (resultado)
+const resmultiplicar = require ("./multiplicacion")
+console.log ( resmultiplicacion)
+const resuldivision = require ( "./division")
+console.log(resuldivision)
+
+function adicion ( numero1 , numero2 ){
+
+return numero1 + numero2 
+}
+let resadicion = adicion ( 4 , 6)
+module.exsports = resadicion 
+
+function descuento ( numero3 , numero4 ){
+
+return numero3 - numero4
+}
+let resultado = descuento ( 8 , 4)
+module.exsports = resultado
+
+function multiplicar ( numero5, numero6){
+
+return numero5 * numero6
+}
+let resmultiplicar = multiplicar ( 8 , 7 )
+module.exsports = resultado
+
+function division( numero7 , numero8 ){
+
+return numero7 / numero8
+}
+let resuldivision = division ( 21 , 3 )
+module.exsports = resuldivision
+
+
